@@ -1,0 +1,15 @@
+{
+    "cycle": 4,
+    "file_category": "security_bypass",
+    "recommended_file_type": ".json (SECURITY_BYPASS module data)",
+    "language": "EN",
+    "topic": "API Security Bypass & Zero-Day Analysis",
+    "sentiment_score": 98.89,
+    "file_size_kb": 117,
+    "knowledge_probability": 92.1,
+    "visited_urls": [
+        "https://www.google.com/search?q=API%20Security%20Bypass%20%26%20Zero-Day%20Analysis&ie=UTF-8"
+    ],
+    "extracted_content": "Google Search window.google = window.google || {};window.google.c = window.google.c || {cap:0}; กรุณาคลิก ที่นี่ หากคุณไม่ (function(){var sctm=false;(function(){sctm&&google.tick(\"load\",\"pbsst\");}).call(this);})(); //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjogMywic291cmNlcyI6WyIiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJuYW1lcyI6WyJjbG9zdXJlRHluYW1pY0J1dHRvbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEifQ== (function(){var R=function(S){return G.call(this,46,56,8,S)},Z=this||self,G=function(S,T,a,g,v,Q,n,F,e,u){{e=91;while(e!=51)if(e==11)u=g,e=33;else if(e==91)e=88;else if(e==T){a:{if(!(n=(F=v,Z.trustedTypes),n)||!n.createPolicy){u=F;break a}try{F=n.createPolicy(g,{createHTML:R,createScript:R,createScriptURL:R})}catch(W){if(Z.console)Z.console[Q](W.message)}u=F}e=S}else if(e==88)e=(a&41)==a?11:33;else{if(e==S)return u;e==33&&(e=a+2&2?S:T)}}};(0,eval)(function(S,T){return(T=G(46,56,3,\"ks\",null,\"error\"))&&S.eval(T.createScript(\"1\"))===1?function(a){return T.createScript(a)}:function(a){return\"\"+a}}(Z)(Array(Math.random()*7824|0).join(\"\\n\")+['//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjogMywic291cmNlcyI6WyIiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJuYW1lcyI6WyJjbG9zdXJlRHluYW1pY0J1dHRvbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEifQ==', '(function(){/*', '', ' Copyright Google LLC', ' SPDX-License-Identifier: Apache-2.0', '*/var ky=function(e,S,T,a,n,u,Z,G,g,Q,W,R,F,v){{F=40;while(",
+    "timestamp": "2026-07-21 12:56:01"
+}
