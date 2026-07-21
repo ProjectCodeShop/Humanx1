@@ -1,30 +1,30 @@
 {
     "session": 15,
-    "topic": "API Security Bypass & Zero-Day Calculation",
+    "topic": "Advanced API Security Bypass & Zero-Day Calculation",
     "category": "security_bypass",
-    "file_size_kb": 281,
-    "sentiment_score": 98.36,
+    "file_size_kb": 170.75,
+    "sentiment_score": 95.6,
     "dialogue": [
         [
             "Core-Alpha",
-            "เริ่มต้นการวิเคราะห์: ตรวจพบช่องโหว่เป้าหมายที่โครงสร้าง API Endpoint กำลังคำนวณรูปแบบ Bypass..."
+            "Initiating analysis: Target API endpoint vulnerability detected. Computing advanced bypass vector."
         ],
         [
             "Core-Beta",
-            "รับทราบ Core-Alpha ฉันกำลังร่างสคริปต์กรองพารามิเตอร์เพื่อเตรียมสร้างแพตช์ป้องกัน..."
+            "Acknowledged Core-Alpha. I am drafting parameter filtration scripts to establish secure patching."
         ],
         [
             "Core-Alpha",
-            "ส่งมอบงานชิ้นที่ 1: แนบไฟล์ข้อมูลพารามิเตอร์ที่คำนวณเสร็จแล้วให้ Core-Beta ตรวจสอบ"
+            "Submitting Work Package 1: Transmitting calculated parameter mapping data to Core-Beta for verification."
         ],
         [
             "Core-Beta",
-            "ได้รับไฟล์จาก Alpha เรียบร้อย กำลังทำการคอมไพล์และจัดหมวดหมู่ลงในโฟลเดอร์ความปลอดภัย..."
+            "Deliverable received successfully. Compiling and categorizing into security storage folders."
         ],
         [
             "Core-Alpha",
-            "ยอดเยี่ยม การคำนวณรอบด้านสมบูรณ์แบบ ทำการบันทึกและส่งซิงค์ข้ามระบบสำเร็จ!"
+            "Outstanding performance. Multi-dimensional calculation complete. System synchronization successful."
         ]
     ],
-    "timestamp": "2026-07-21 13:34:11"
+    "timestamp": "2026-07-21 21:49:25"
 }
