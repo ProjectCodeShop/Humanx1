@@ -2,8 +2,8 @@
     "session": 3,
     "topic": "Advanced API Security Bypass & Zero-Day Calculation",
     "category": "security_bypass",
-    "file_size_kb": 321.56,
-    "sentiment_score": 96.23,
+    "file_size_kb": 48.63,
+    "sentiment_score": 98.41,
     "dialogue": [
         [
             "Core-Alpha",
@@ -26,5 +26,5 @@
             "Outstanding performance. Multi-dimensional calculation complete. System synchronization successful."
         ]
     ],
-    "timestamp": "2026-07-21 13:53:01"
+    "timestamp": "2026-07-21 21:38:24"
 }
