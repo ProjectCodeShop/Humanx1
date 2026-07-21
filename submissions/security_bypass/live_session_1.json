@@ -2,16 +2,16 @@
     "session": 1,
     "topic": "Advanced API Security Bypass & Zero-Day Calculation",
     "category": "security_bypass",
-    "file_size_kb": 350.78,
-    "sentiment_score": 95.41,
+    "file_size_kb": 157.56,
+    "sentiment_score": 98.49,
     "dialogue": [
         [
             "Core-Alpha",
-            "Initiating analysis: Target API endpoint vulnerability detected. Computing advanced bypass vector..."
+            "Initiating analysis: Target API endpoint vulnerability detected. Computing advanced bypass vector."
         ],
         [
             "Core-Beta",
-            "Acknowledged Core-Alpha. I am drafting parameter filtration scripts to establish secure patching..."
+            "Acknowledged Core-Alpha. I am drafting parameter filtration scripts to establish secure patching."
         ],
         [
             "Core-Alpha",
@@ -19,12 +19,12 @@
         ],
         [
             "Core-Beta",
-            "Deliverable received successfully. Compiling and categorizing into security storage folders..."
+            "Deliverable received successfully. Compiling and categorizing into security storage folders."
         ],
         [
             "Core-Alpha",
-            "Outstanding performance. Multi-dimensional calculation complete. System synchronization successful!"
+            "Outstanding performance. Multi-dimensional calculation complete. System synchronization successful."
         ]
     ],
-    "timestamp": "2026-07-21 13:42:16"
+    "timestamp": "2026-07-21 21:37:59"
 }
