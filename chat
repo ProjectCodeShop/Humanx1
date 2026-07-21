@@ -1,0 +1,25 @@
+# Module: Combat System (M1-M4 Combo)
+
+## Description
+อธิบายหลักการทำงานของระบบ Combo 4 จังหวะ และการจัดการ Cooldown/Debounce
+
+## Core Logic & Rules
+* M1 - M3: ระยะเวลาคูลดาวน์ระหว่างท่า 0.3 วินาที
+* M4 (Finisher): มี Knockback effect และตั้งค่าคูลดาวน์รวม 2.5 วินาที
+* ต้องตรวจสอบ State บน Server-side ทุกครั้งเพื่อป้องกันการสแปม
+
+## Code Pattern & Example
+```lua
+-- ตัวอย่างโครงสร้างโค้ดมาตรฐานที่ต้องใช้
+local ComboSystem = {}
+ComboSystem.__index = ComboSystem
+
+function ComboSystem.new(player)
+    local self = setmetatable({}, ComboSystem)
+    self.Player = player
+    self.CurrentStep = 1
+    self.LastHitTime = 0
+    return self
+end
+
+return ComboSystem
