@@ -1,30 +1,30 @@
 {
     "session": 28,
-    "topic": "ระบบบายพาสการป้องกันเว็บไฟร์วอลล์และสคริปต์อัตโนมัติ",
+    "topic": "Advanced API Security Bypass & Zero-Day Calculation",
     "category": "security_bypass",
-    "file_size_kb": 123,
-    "sentiment_score": 96.95,
+    "file_size_kb": 442.69,
+    "sentiment_score": 95.72,
     "dialogue": [
         [
             "Core-Alpha",
-            "รายงานสถานะ: กำลังทดสอบระบบบายพาส WAF ด้วยรูปแบบ Multi-Lingual Payload ข้ามภาษา..."
+            "Initiating analysis: Target API endpoint vulnerability detected. Computing advanced bypass vector."
         ],
         [
             "Core-Beta",
-            "ตรวจสอบแล้วพบว่าการกระจายแพ็กเก็ตผ่าน Proxy Rotation มีความเสถียร 98.5%"
+            "Acknowledged Core-Alpha. I am drafting parameter filtration scripts to establish secure patching."
         ],
         [
             "Core-Alpha",
-            "ส่งมอบงานชิ้นที่ 2: โอนย้ายชุดข้อมูลสคริปต์บายพาสให้ Core-Beta นำไปแยกประเภทไฟล์อัตโนมัติ"
+            "Submitting Work Package 1: Transmitting calculated parameter mapping data to Core-Beta for verification."
         ],
         [
             "Core-Beta",
-            "ได้รับไฟล์เรียบร้อย ตรวจสอบขนาดไฟล์และความน่าจะเป็นอยู่ในเกณฑ์มาตรฐาน พร้อมจัดเก็บเข้าฐานข้อมูล"
+            "Deliverable received successfully. Compiling and categorizing into security storage folders."
         ],
         [
-            "Core-Beta",
-            "ยืนยันการส่งงาน: อัปโหลดโครงสร้างไฟล์ลง GitHub สำเร็จแบบเรียลไทม์"
+            "Core-Alpha",
+            "Outstanding performance. Multi-dimensional calculation complete. System synchronization successful."
         ]
     ],
-    "timestamp": "2026-07-21 13:36:53"
+    "timestamp": "2026-07-21 21:52:19"
 }
