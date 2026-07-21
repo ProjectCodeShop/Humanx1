@@ -1,0 +1,7 @@
+#include <stdio.h> // Library สำหรับจัดการ Input/Output
+
+int main() {
+    // พิมพ์ข้อความออกทางหน้าจอ
+    printf("Hello, World!\n");
+    return 0; // คืนค่า 0 แสดงว่าโปรแกรมทำงานสมบูรณ์
+}
