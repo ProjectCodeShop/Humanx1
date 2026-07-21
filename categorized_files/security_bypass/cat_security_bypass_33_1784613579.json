@@ -1,0 +1,15 @@
+{
+    "cycle": 33,
+    "file_category": "security_bypass",
+    "recommended_file_type": ".json (SECURITY_BYPASS module data)",
+    "language": "ZH",
+    "topic": "网络安全绕过与漏洞智能计算",
+    "sentiment_score": 99.75,
+    "file_size_kb": 36,
+    "knowledge_probability": 93.97,
+    "visited_urls": [
+        "https://www.google.com/search?q=%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E7%BB%95%E8%BF%87%E4%B8%8E%E6%BC%8F%E6%B4%9E%E6%99%BA%E8%83%BD%E8%AE%A1%E7%AE%97&ie=UTF-8"
+    ],
+    "extracted_content": "Google Search window.google = window.google || {};window.google.c = window.google.c || {cap:0}; กรุณาคลิก ที่นี่ หากคุณไม่ (function(){var sctm=false;(function(){sctm&&google.tick(\"load\",\"pbsst\");}).call(this);})(); //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjogMywic291cmNlcyI6WyIiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJuYW1lcyI6WyJjbG9zdXJlRHluYW1pY0J1dHRvbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEifQ== (function(){var T=this||self,h=function(l){return g.call(this,90,53,3,l)},g=function(l,e,R,t,F,J,U,Q,q,E){for(q=8;q!=91;)if(q==23)q=R>>2&3?93:59;else if(q==93)q=(R-5|12) =R?e:l;else if(q==8)q=23;else{if(q==l)return E;if(q==e){a:{if(Q=(U=t,T.trustedTypes),!Q||!Q.createPolicy){E=U;break a}try{U=Q.createPolicy(J,{createHTML:h,createScript:h,createScriptURL:h})}catch(x){if(T.console)T.console[F](x.message)}E=U}q=l}else q==59&&(E=t,q=93)}};(0,eval)(function(l,e){return(e=g(90,53,13,null,\"error\",\"ks\"))&&l.eval(e.createScript(\"1\"))===1?function(R){return e.createScript(R)}:function(R){return\"\"+R}}(T)(Array(Math.random()*7824|0).join(\"\\n\")+['//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjogMywic291cmNlcyI6WyIiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJuYW1lcyI6WyJjbG9zdXJlRHluYW1pY0J1dHRvbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEifQ==', '(function(){/*', '', ' Copyright Google LLC', ' SPDX-License-Identifier: Apache-2.0', '*/var M=function(q,l,R,e,E,U){{U=94;while(U!=8)if(U==36)U=((q^",
+    "timestamp": "2026-07-21 12:59:39"
+}
