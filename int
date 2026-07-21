@@ -1,0 +1,18 @@
+if (score >= 50) {
+    printf("Pass");
+} else {
+    printf("Fail");
+}
+
+for (int i = 1; i <= 5; i++) {
+    printf("Round %d\n", i);
+}
+
+
+int x = 10;
+int *ptr = &x; // ptr เก็บที่อยู่ (Address) ของตัวแปร x
+
+printf("Value of x: %d\n", x);      // 10
+printf("Address of x: %p\n", ptr);   // พิมพ์ตำแหน่งหน่วยความจำ
+printf("Value via ptr: %d\n", *ptr); // 10 (Dereferencing)
+
