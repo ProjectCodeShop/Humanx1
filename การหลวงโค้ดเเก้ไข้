@@ -1,0 +1,83 @@
+local function setSpeed(player, speed)
+    player.Character.Humanoid.WalkSpeed = speed -- พังทันทีถ้า Character หรือ Humanoid เป็น nil
+end
+
+
+
+ข้อ.2
+local function setSpeed(player, speed)
+    if not (player and player.Character) then return false end
+
+    local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+    if not humanoid then return false end
+
+    humanoid.WalkSpeed = speed
+    return true
+end
+
+
+ข้อ.3
+local function attack()
+    print("Attacking target!")
+end
+
+ข้อ.4
+local isCooldown = false
+local COOLDOWN_TIME = 3
+
+local function attack()
+    if isCooldown then return end
+    isCooldown = true
+
+    print("Attacking target!")
+
+    task.delay(COOLDOWN_TIME, function()
+        isCooldown = false
+    end)
+end
+ข้อ5้
+local isProcessing = false
+
+local function onButtonClicked()
+    if isProcessing then return end
+    isProcessing = true
+
+    -- จำลองการส่งข้อมูลไป Server
+    local success = pcall(function()
+        -- Async Operation / Server Call
+        task.wait(1)
+    end)
+
+    -- ปลดล็อก State เสมอไม่ว่าจะสำเร็จหรือไม่
+    isProcessing = false
+en
+ข้อ.5
+dlocal function teleportCharacter(character, targetCFrame)
+    if not character then return false end
+    local rootPart = character:FindFirstChild("HumanoidRootPart")
+    if not rootPart then return false end
+
+    rootPart.CFrame = targetCFrame
+    return true
+end
+
+-- เรียกใช้งานแบบ Reuse
+teleportCharacter(player1.Character, CFrame.new(0, 10, 0))
+teleportCharacter(player2.Character, CFrame.new(100, 10, 0))
+
+คำสั่ง: [ระบุสิ่งที่ต้องการ เช่น: เพิ่มระบบ / แก้ไข Bug / สร้างฟังก์ชันใหม่]
+
+[CONTEXT / CONSTRAINTS]
+1. ภาษา/Environment: [เช่น: Luau / Roblox Studio]
+2. ข้อจำกัด: [เช่น: ห้ามเปลี่ยนโครงสร้างฟังก์ชันเดิม / ต้องมี Cooldown / ต้องใส่ Guard Clause]
+
+[CODE STARTS]
+-- ใส่โค้ดเดิมตรงนี้ (ถ้ามี)
+[CODE ENDS]
+
+รูปแบบคำตอบที่ต้องการ:
+1. โค้ดที่แก้ไข/สร้างเสร็จสมบูรณ์ พร้อม Comment อธิบาย
+2. สรุปจุดที่มีการปรับปรุงหรือแก้ Bug
+
+
+
