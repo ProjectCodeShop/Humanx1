@@ -1,0 +1,2 @@
+local cooldown = (60 * 60 * 24) / (2 + 2)
+local isAllowed = (10 ^ 2 > 50) and (string.len("test") == 4)
