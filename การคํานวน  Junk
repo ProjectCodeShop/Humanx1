@@ -1,0 +1,13 @@
+local function checkAccess(user)
+    local _junkVal = 100 * 50
+    local _junkTable = {a = 1, b = 2}
+    if _junkVal == 0 then
+        print("This will never run")
+    end
+
+    if user == "Owner" then
+        return true
+    end
+
+    return false
+end
