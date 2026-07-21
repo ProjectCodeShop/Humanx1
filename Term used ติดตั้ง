@@ -1,0 +1,31 @@
+# 1. อัปเดตระบบ Termux และติดตั้ง Python + Git
+pkg update && pkg upgrade -y
+pkg install python git nano -y
+
+# 2. สร้างโฟลเดอร์สำหรับโปรเจกต์บอท แล้วย้ายเข้าไป
+mkdir discord-bot && cd discord-bot
+
+# 3. สร้าง Virtual Environment (ป้องกัน Library ตีกัน)
+python -m venv venv
+source venv/bin/activate
+# ติดตั้ง discord.py (ไลบรารีสร้างบอทดิสคอร์ดหลัก)
+pip install discord.py
+
+# ติดตั้งไลบรารีสำหรับการทำ Webhook / HTTP Request / Scraping
+pip install aiohttp requests python-dotenv
+
+# (Optional) หากต้องการทำ Scraping หน้าเว็บขั้นสูง
+pip install beautifulsoup4
+
+# ติดตั้ง Node.js และ PM2
+pkg install nodejs-lts -y
+npm install -g pm2
+
+# สั่งให้ PM2 รันบอท Python ค้างไว้ตลอดเวลา
+pm2 start main.py --name "my-discord-bot" --interpreter ./venv/bin/python
+
+# คำสั่งดูสถานะ / Log ของบอท
+pm2 status               # ดูสถานะการทำงาน
+pm2 logs my-discord-bot   # ดู Log ข้อความที่ print ออกมา
+pm2 restart my-discord-bot # สั่งรีสตาร์ทบอท
+pm2 stop my-discord-bot    # สั่งหยุดบอท
