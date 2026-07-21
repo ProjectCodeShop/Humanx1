@@ -1,0 +1,13 @@
+import base64
+
+def encode_data(text: str) -> str:
+    """Encode string to Base64"""
+    bytes_data = text.encode('utf-8')
+    encoded_bytes = base64.b64encode(bytes_data)
+    return encoded_bytes.decode('utf-8')
+
+def decode_data(encoded_text: str) -> str:
+    """Decode Base64 string back to original string"""
+    bytes_data = encoded_text.encode('utf-8')
+    decoded_bytes = base64.b64decode(bytes_data)
+    return decoded_bytes.decode('utf-8')
