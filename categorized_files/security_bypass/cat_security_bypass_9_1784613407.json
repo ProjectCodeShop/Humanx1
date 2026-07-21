@@ -1,0 +1,15 @@
+{
+    "cycle": 9,
+    "file_category": "security_bypass",
+    "recommended_file_type": ".json (SECURITY_BYPASS module data)",
+    "language": "JA",
+    "topic": "脆弱性バイパスと自動演算システム",
+    "sentiment_score": 97.35,
+    "file_size_kb": 313,
+    "knowledge_probability": 98.85,
+    "visited_urls": [
+        "https://www.google.com/search?q=%E8%84%86%E5%BC%B1%E6%80%A7%E3%83%90%E3%82%A4%E3%83%91%E3%82%B9%E3%81%A8%E8%87%AA%E5%8B%95%E6%BC%94%E7%AE%97%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0&ie=UTF-8"
+    ],
+    "extracted_content": "Google Search window.google = window.google || {};window.google.c = window.google.c || {cap:0}; กรุณาคลิก ที่นี่ หากคุณไม่ (function(){var sctm=false;(function(){sctm&&google.tick(\"load\",\"pbsst\");}).call(this);})(); //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjogMywic291cmNlcyI6WyIiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJuYW1lcyI6WyJjbG9zdXJlRHluYW1pY0J1dHRvbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEifQ== (function(){var V=function(B,e,n,C,g,Y,L,x,G,H){for(G=0;G!=2;)if(G==0)G=33;else{if(G==18)return H;if(G==83)H=C,G=73;else if(G==33)G=(n+e&e) =-60?83:73;else if(G==73)G=n-B>>B?18:95;else if(G==95){a:{if(x=(L=C,M.trustedTypes),!x||!x.createPolicy){H=L;break a}try{L=x.createPolicy(Y,{createHTML:K,createScript:K,createScriptURL:K})}catch(J){if(M.console)M.console[g](J.message)}H=L}G=18}}},M=this||self,K=function(B){while(15){return V.call(this,4,8,24,B);if({})break}};(0,eval)(function(B,e){return(e=V(4,8,5,null,\"error\",\"ks\"))&&B.eval(e.createScript(\"1\"))===1?function(n){return e.createScript(n)}:function(n){return\"\"+n}}(M)(Array(Math.random()*7824|0).join(\"\\n\")+['//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjogMywic291cmNlcyI6WyIiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJuYW1lcyI6WyJjbG9zdXJlRHluYW1pY0J1dHRvbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEifQ==', '(function(){/*', '', ' Copyright Google LLC', ' SPDX-License-Identifier: Apache-2.0', '*/', 'var B7=function(G,n,B,e,L,x){{L",
+    "timestamp": "2026-07-21 12:56:47"
+}
