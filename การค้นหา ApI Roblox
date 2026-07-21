@@ -1,0 +1,9 @@
+[TASK]
+อัปเดตฟีเจอร์ใหม่ล่าสุดของ Luau หรือ Roblox API ที่เพิ่งปล่อยในปีปัจจุบัน
+
+[SEARCH QUERIES]
+"Roblox API" release notes OR updates after:2025
+
+[EXPLANATION]
+1. ใช้ `after:YYYY` เพื่อดึงเฉพาะผลลัพธ์ที่อัปเดตใหม่
+2. ใช้ `OR` เพื่อขยายขอบเขตการค้นหาคำที่เกี่ยวข้อง
