@@ -1,0 +1,38 @@
+# Knowledge Base: Luau Metatables & Tool Grip CFrame Manipulation
+
+เอกสารอธิบายการใช้ Metatables ในภาษา Luau (Roblox) ร่วมกับการปรับแต่งค่า Grip CFrame ของ Tool/Weapon อย่างมีประสิทธิภาพ
+
+---
+
+## 1. Metatables & Custom Indexing (__index / __newindex)
+
+Metatable ช่วยให้เราสร้าง Object-Oriented Programming (OOP) และกำหนด พฤติกรรมพิเศษ (Custom Behavior) ให้กับ Table ได้
+
+### Key Metamethods Reference
+* `__index`: ทำงานเมื่อเรียกใช้ Key หรือ Property ที่ไม่มีอยู่ใน Table
+* `__newindex`: ทำงานเมื่อมีการเขียน/แก้ไข ค่าใน Key ที่ยังไม่มีอยู่
+* `__tostring`: กำหนดผลลัพธ์เมื่อแปลง Table เป็น String
+* `__call`: สั่งให้ Table สามารถรันได้เหมือน Function
+
+### Standard Luau Class Pattern with Metatable
+
+```lua
+local WeaponClass = {}
+WeaponClass.__index = WeaponClass
+
+function WeaponClass.new(weaponName: string, baseDamage: number)
+    local self = setmetatable({}, WeaponClass)
+    
+    self.Name = weaponName
+    self.Damage = baseDamage
+    self.GripOffset = CFrame.new(0, 0, 0)
+    
+    return self
+end
+
+-- Custom Method
+function WeaponClass:SetDamage(newDamage: number)
+    self.Damage = newDamage
+end
+
+return WeaponClass
