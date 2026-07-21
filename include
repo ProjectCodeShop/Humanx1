@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int number;
+    printf("Enter a number: ");
+    scanf("%d", &number); // รับค่าจากแป้นพิมพ์ (ต้องมี & หน้าตัวแปร)
+    printf("You entered: %d\n", number);
+    return 0;
+}
